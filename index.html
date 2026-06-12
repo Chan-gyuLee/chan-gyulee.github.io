@@ -1,11 +1,312 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <title>내 프로필</title>
-</head>
-<body>
-    <h1>안녕하세요! 저는 [이름]입니다.</h1>
-    <p>방문해 주셔서 감사합니다. 멋진 프로필 홈페이지를 만들어가는 중이에요!</p>
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Chan-gyu Lee is a KAIST M.S. student researching computational geometry and AI-driven protein dynamics, joining the AIPD Lab for Ph.D." />
+    <meta property="og:title" content="Chan-gyu Lee" />
+    <meta property="og:description" content="Researcher working on computational geometry and AI-driven protein dynamics." />
+    <meta property="og:type" content="website" />
+    <title>Chan-gyu Lee</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="profile">
+        <img src="image01.png" alt="Chan-gyu Lee" />
+        <div>
+          <h1>Chan-gyu Lee</h1>
+          <p class="role">M.S. Student @ KAIST</p>
+          <p class="tagline">AI-driven protein dynamics &amp; computational biology.</p>
+          <div class="links" aria-label="Profile links">
+            <a class="icon-link" href="mailto:lck3365@kaist.ac.kr"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16v12H4V6Z"/><path d="m4 7 8 6 8-6"/></svg><span>Email</span></a>
+            <a class="icon-link" href="https://scholar.google.com/"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 4 9 5-9 5-9-5 9-5Z"/><path d="M6 12v4c2 2 10 2 12 0v-4"/><path d="M21 9v6"/></svg><span>Google Scholar</span></a>
+            <a class="icon-link" href="https://github.com/Chan-gyu-Lee"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3"/><path d="M15 22v-3.5c0-1 .3-1.7.9-2.3 3-.3 6.1-1.5 6.1-6.8 0-1.5-.5-2.8-1.4-3.8.1-.3.6-1.8-.2-3.7 0 0-1.2-.4-3.9 1.5a13.4 13.4 0 0 0-7 0C6.8 1.5 5.6 1.9 5.6 1.9c-.8 1.9-.3 3.4-.2 3.7A5.3 5.3 0 0 0 4 9.4c0 5.3 3.1 6.5 6.1 6.8.6.6.9 1.3.9 2.3V22"/></svg><span>GitHub</span></a>
+            <a class="icon-link" href="https://www.linkedin.com/"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 10v8"/><path d="M6.5 6v.1"/><path d="M11 18v-8"/><path d="M11 13.5c0-2 1.2-3.5 3.2-3.5 2.1 0 3.3 1.4 3.3 3.8V18"/></svg><span>LinkedIn</span></a>
+            <a class="icon-link" href="ChangyuLee_CV.pdf" download><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l4 4v14H7V3Z"/><path d="M14 3v5h4"/><path d="M10 13h5"/><path d="M10 17h5"/></svg><span>CV</span></a>
+          </div>
+        </div>
+      </header>
+
+      <nav class="anchor-nav" aria-label="Section navigation">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#awards">Awards</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+      </nav>
+
+      <main>
+        <section id="about" class="section">
+          <h2>About</h2>
+          <p>I am a M.S. student in the School of Computing at KAIST, working at the <a href="https://sites.google.com/view/kaist-gclab">Geometric Computing Lab (GCLab)</a> advised by <a href="https://sites.google.com/view/kaist-gclab">Prof. Sunghee Choi</a>. I will be joining the <a href="https://sites.google.com/view/aipdlab">AIPD (AI-driven Protein Design) Lab</a> advised by <a href="https://sites.google.com/view/aipdlab">Prof. Gyu Rie Lee</a> for my Ph.D. in the Department of Biological Sciences at KAIST.</p>
+          <p>My research focuses on understanding and simulating protein conformational dynamics using machine learning, with a particular interest in molecular dynamics enhanced by generative models. I am passionate about bridging computational methods and biological discovery to accelerate our understanding of protein behavior at the molecular level.</p>
+        </section>
+
+        <section id="education" class="section">
+          <h2>Education</h2>
+          <div class="timeline">
+            <article class="timeline-row">
+              <div class="date">2027 –</div>
+              <div>
+                <h3>Ph.D. in Biological Sciences, KAIST (Incoming)</h3>
+                <p>Advisor: <a href="https://sites.google.com/view/aipdlab">Prof. Gyu Rie Lee</a></p>
+                <p class="muted">AIPD Lab. Daejeon, Republic of Korea.</p>
+              </div>
+            </article>
+            <article class="timeline-row">
+              <div class="date">2025 – Present</div>
+              <div>
+                <h3>M.S. in School of Computing, KAIST</h3>
+                <p>Advisor: <a href="https://sites.google.com/view/kaist-gclab">Prof. Sunghee Choi</a></p>
+                <p class="muted">GCLab. Daejeon, Republic of Korea.</p>
+              </div>
+            </article>
+            <article class="timeline-row">
+              <div class="date">2019 – 2025</div>
+              <div>
+                <h3>B.S. in School of Computing, KAIST</h3>
+                <p class="muted">Outstanding Graduate of the Year (Minister of Science and ICT).</p>
+                <p class="muted">Daejeon, Republic of Korea.</p>
+              </div>
+            </article>
+            <article class="timeline-row">
+              <div class="date">2016 – 2019</div>
+              <div>
+                <h3>Sejong Academy of Science and Arts</h3>
+                <p class="muted">School for the Gifted, Engineering Track. Sejong, Republic of Korea.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="research" class="section">
+          <h2>Research Interests</h2>
+          <p>My research sits at the intersection of machine learning and structural biology. Key areas include:</p>
+          <ul class="simple-list">
+            <li><strong>Protein Conformational Dynamics</strong> — Sampling transition pathways between protein states using generative models and enhanced sampling techniques.</li>
+            <li><strong>Molecular Dynamics Simulation</strong> — Developing and applying AI-enhanced methods (e.g., COMPASS, BioEmu) for efficient exploration of protein conformational landscapes.</li>
+            <li><strong>Generative Models for Proteins</strong> — Applying diffusion models and latent variable models to protein structure generation and design.</li>
+            <li><strong>Computational Drug Discovery</strong> — Leveraging dynamic protein structures for structure-based drug design.</li>
+          </ul>
+        </section>
+
+        <section id="publications" class="section">
+          <h2>Publications</h2>
+          <div class="publication-list">
+            <article class="publication">
+              <div class="pub-year"><a href="https://genbio-workshop.github.io/2026/">GenBio @ ICML 2026</a></div>
+              <div>
+                <h3>COMPASS: Decoupled Latent Steering for Protein Conformational Transition Sampling</h3>
+                <p class="authors"><span class="author-highlight">Chan-gyu Lee</span> et al.</p>
+              </div>
+            </article>
+            <!-- More publications can be added in the same format -->
+          </div>
+        </section>
+
+        <section id="awards" class="section">
+          <h2>Awards &amp; Honors</h2>
+
+          <div class="subsection">
+            <h3 class="subsection-title">Scholarships &amp; Academic</h3>
+            <ul class="award-list">
+              <li class="award-row">
+                <span class="award-date">2025</span>
+                <span class="award-text">Outstanding Graduate of the Year, KAIST (Minister of Science and ICT)</span>
+              </li>
+              <li class="award-row">
+                <span class="award-date">2025</span>
+                <span class="award-text">Korea National Talent Award, Ministry of Education</span>
+              </li>
+              <li class="award-row">
+                <span class="award-date">2024</span>
+                <span class="award-text">URP Excellent Award (2nd Place), KAIST</span>
+              </li>
+              <li class="award-row">
+                <span class="award-date">2019</span>
+                <span class="award-text">Presidential Science Scholarship, Republic of Korea (Biology)</span>
+              </li>
+              <li class="award-row">
+                <span class="award-date">2017</span>
+                <span class="award-text">IT Talent Scholarship, The Electronic Times</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="subsection">
+            <h3 class="subsection-title">Coding &amp; AI</h3>
+            <ul class="award-list">
+              <li class="award-row">
+                <span class="award-date">2024</span>
+                <span class="award-text">TeamKAIST Global Challenge, Selected ($15,000)</span>
+              </li>
+              <li class="award-row">
+                <span class="award-date">2023</span>
+                <span class="award-text">Elice Generative AI Hackathon, 2nd Place ($5,000)</span>
+              </li>
+              <li class="award-row">
+                <span class="award-date">2022</span>
+                <span class="award-text">Ministry of Defense AI Hackathon, Honorable Mention ($1,000)</span>
+              </li>
+              <li class="award-row">
+                <span class="award-date">2021</span>
+                <span class="award-text">Ministry of Economy and Finance Data Visualization Contest, Finalist</span>
+              </li>
+              <li class="award-row">
+                <span class="award-date">2017</span>
+                <span class="award-text">e-ICON App Development Contest, 1st Place (Minister of Education Award)</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="subsection">
+            <h3 class="subsection-title">Startup Competitions</h3>
+            <ul class="award-list">
+              <li class="award-row">
+                <span class="award-date">2023</span>
+                <span class="award-text">KT&amp;G University Startup Contest, Grand Prize</span>
+              </li>
+              <li class="award-row">
+                <span class="award-date">2021</span>
+                <span class="award-text">SoC App Startup Competition, 2nd Place ($20,000)</span>
+              </li>
+              <li class="award-row">
+                <span class="award-date">2021</span>
+                <span class="award-text">E*5 KAIST Startup, Finalist (2nd Place)</span>
+              </li>
+              <li class="award-row">
+                <span class="award-date">2021</span>
+                <span class="award-text">Pre-Startup Package, Daejeon Innovation Center, 1st Place ($40,000)</span>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="experience" class="section">
+          <h2>Experience</h2>
+          <div class="subsection">
+            <h3 class="subsection-title">Research Experience</h3>
+            <div class="entry-list">
+              <article class="expandable-entry">
+                <details class="expandable-details">
+                  <summary>
+                    <span class="entry-role-title">Graduate Research Assistant</span>
+                    <span class="entry-meta"><span>GCLab, KAIST</span><span>Daejeon, Republic of Korea</span><span>2025 – Present</span></span>
+                    <span class="entry-impact">Researching AI-driven protein conformational dynamics and enhanced molecular simulation methods.</span>
+                  </summary>
+                  <p>Working on the COMPASS project (Decoupled Latent Steering for protein conformational transition sampling) and related methods for AI-enhanced molecular dynamics. Developing approaches to efficiently sample protein conformational landscapes using generative models.</p>
+                </details>
+              </article>
+              <article class="expandable-entry">
+                <details class="expandable-details">
+                  <summary>
+                    <span class="entry-role-title">NeuroSource Mapping and Distortion (NSMD)</span>
+                    <span class="entry-meta"><span>Individual Research (URP)</span><span>KAIST</span><span>2024</span></span>
+                    <span class="entry-impact">Proposed an EEG signal generation method to improve Brain-Computer Interface performance. URP Excellent Award (2nd Place).</span>
+                  </summary>
+                  <p>Developed a novel EEG signal generation method combining neurosource mapping with signal distortion techniques. The approach aimed to address data scarcity in BCI systems by generating realistic synthetic EEG signals. Received the URP Excellent Award from the Senior Vice President for Research at KAIST.</p>
+                </details>
+              </article>
+              <article class="expandable-entry">
+                <details class="expandable-details">
+                  <summary>
+                    <span class="entry-role-title">Object Detection Based on Early-Exit Dynamic Perceiver</span>
+                    <span class="entry-meta"><span>Team Project (4 members)</span><span>KAIST</span><span>2023</span></span>
+                    <span class="entry-impact">Developed an efficient object detection system using dynamic inference with early-exit mechanisms.</span>
+                  </summary>
+                  <p>Built an object detection system leveraging the Perceiver architecture with dynamic early-exit strategies to balance accuracy and computational efficiency.</p>
+                </details>
+              </article>
+              <article class="expandable-entry">
+                <details class="expandable-details">
+                  <summary>
+                    <span class="entry-role-title">Early Research: EEG-Based Studies</span>
+                    <span class="entry-meta"><span>Sejong Academy of Science and Arts</span><span>2016 – 2018</span></span>
+                    <span class="entry-impact">Conducted three EEG-based research projects during high school, laying the foundation for computational neuroscience interests.</span>
+                  </summary>
+                  <ul class="simple-list">
+                    <li><strong>Emotion-Mediated Auditory Visualization</strong> (2016–2017, Team) — Proposed a visualization system for emotion-mediated auditory information through EEG analysis.</li>
+                    <li><strong>Gait Strategy Analysis</strong> (2017, Team) — Analyzed gait strategies according to lower limb discrepancy using a motion capture system.</li>
+                    <li><strong>Right-Brain Drawing Education</strong> (2018, Team) — Validated a right-brain drawing education program using EEG measurements.</li>
+                  </ul>
+                </details>
+              </article>
+            </div>
+          </div>
+          <div class="subsection">
+            <h3 class="subsection-title">Global Activities</h3>
+            <ul class="simple-list">
+              <li>Korea ICT Overseas Volunteer Program — Ethiopia (3 weeks).</li>
+              <li>Byung-Kyu Jang ICT Overseas Volunteer Program — Indonesia (2 weeks).</li>
+            </ul>
+          </div>
+          <div class="subsection">
+            <h3 class="subsection-title">Military Service</h3>
+            <div class="entry-list">
+              <article class="expandable-entry">
+                <details class="expandable-details">
+                  <summary>
+                    <span class="entry-role-title">Sergeant, Signals Intelligence</span>
+                    <span class="entry-meta"><span>Army, Defense Intelligence Command</span><span>Republic of Korea</span><span>Mar 2022 – Sep 2023</span></span>
+                    <span class="entry-impact">Completed mandatory military service in signals intelligence.</span>
+                  </summary>
+                  <p>Served in the Defense Intelligence Command as a signals intelligence specialist. Honorably discharged as Sergeant.</p>
+                </details>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="skills" class="section">
+          <h2>Skills</h2>
+          <p class="skill-language"><strong>Languages:</strong> Korean (native), English</p>
+          <div class="skill-card-grid">
+            <article class="skill-card">
+              <h3>Machine Learning</h3>
+              <p>PyTorch, PyTorch Geometric, Weights &amp; Biases</p>
+            </article>
+            <article class="skill-card">
+              <h3>Computational Biology</h3>
+              <p>OpenMM, MDAnalysis, BioEmu, RDKit, PyMOL</p>
+            </article>
+            <article class="skill-card">
+              <h3>Programming</h3>
+              <p>Python, C/C++, Bash, LaTeX</p>
+            </article>
+            <article class="skill-card">
+              <h3>Infrastructure</h3>
+              <p>Linux, SLURM, Docker, Git, GPU Cluster Management</p>
+            </article>
+          </div>
+
+          <h3 class="subsection-title" style="margin-top: 18px;">Certifications</h3>
+          <div class="skill-card-grid">
+            <article class="skill-card">
+              <h3>Drone</h3>
+              <p>Australian Drone License (RPA), Korean Drone License (Class 4)</p>
+            </article>
+            <article class="skill-card">
+              <h3>Finance</h3>
+              <p>Certified Financial Investment Analyst, Financial Risk Manager, Investment Asset Manager</p>
+            </article>
+            <article class="skill-card">
+              <h3>Culinary</h3>
+              <p>Western Cuisine Certificate, Korean Cuisine Certificate</p>
+            </article>
+            <article class="skill-card">
+              <h3>Writing</h3>
+              <p>KAIST Writing Contest 2nd Place (Published book, donated royalties)</p>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <p>Chan-gyu Lee - <a href="mailto:lck3365@kaist.ac.kr">lck3365@kaist.ac.kr</a></p>
+      </footer>
+    </div>
+  </body>
 </html>
